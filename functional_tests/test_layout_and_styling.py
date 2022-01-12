@@ -1,13 +1,5 @@
 from .base import FunctionalTest
-from django.contrib.staticfiles.testing import StaticLiveServerTestCase
-from selenium import webdriver
-from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.keys import Keys
-import time
-import os
-from unittest import skip
-
-MAX_WAIT = 10
 
 
 class LayoutAndStylingTest(FunctionalTest):
