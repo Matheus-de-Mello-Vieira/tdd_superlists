@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 
 
 class ItemValidationTest(FunctionalTest):
-    @skip
     def test_cannot_add_empty_list_items(self):
         # Edith acessa a página inicial e acidentlamente tenta submeter um item
         # vazio na lista. Ela tecla Enter na caixa de entrada vazia
